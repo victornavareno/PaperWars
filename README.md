@@ -4,7 +4,6 @@
 
 Este repositorio contiene los archivos C# desarrollados como parte de un proyecto para aprender Unity y diseño de juegos interactivos en Imagen Digital. El objetivo principal fue comprender la interacción entre objetos, las mecánicas de juego básicas y la transición entre escenas.
 
----
 
 ##  **Archivos incluidos y sus funcionalidades**  
 
@@ -14,7 +13,6 @@ Este script gestiona el sistema de armas del jugador:
 - Configura la velocidad y dirección de las balas, asegurando que se disparen hacia adelante desde la posición del jugador.  
 - Añade realismo al incluir tiempos de recarga entre disparos.  
 
----
 
 ### 2. **`PlayerMovement.cs`**  
 Responsable del movimiento del jugador:  
@@ -24,7 +22,6 @@ Responsable del movimiento del jugador:
   - Si el jugador colisiona con un enemigo, se activa una animación de explosión y se muestra un mensaje de "Game Over".  
   - Interactúa con otros objetos como "obstáculos móviles" de forma natural (por ejemplo, empujándolos con el collider).  
 
----
 
 ### 3. **`EnemyMovement.cs`**  
 Controla el comportamiento de los enemigos:  
@@ -32,7 +29,6 @@ Controla el comportamiento de los enemigos:
 - Al ser alcanzados por las balas, se activa un efecto de explosión y se notifica al `GameManager` que han sido eliminados.  
 - Incluye sonidos y partículas para enriquecer la experiencia visual y auditiva.  
 
----
 
 ### 4. **`Bullet.cs`**  
 Este script define el comportamiento de las balas disparadas por el jugador:  
@@ -40,7 +36,6 @@ Este script define el comportamiento de las balas disparadas por el jugador:
 - Detecta colisiones con enemigos, activando sus respectivos efectos.  
 - Destruye las balas tras un tiempo predeterminado para optimizar el rendimiento del juego.  
 
----
 
 ### 5. **`GameManager.cs`**  
 El núcleo de la lógica del juego, encargado de coordinar las principales mecánicas:  
@@ -48,15 +43,11 @@ El núcleo de la lógica del juego, encargado de coordinar las principales mecá
 - Cambia de nivel (o escena) cuando todos los enemigos han sido derrotados.  
 - Muestra un mensaje de "¡Buen trabajo!" al jugador antes de la transición, añadiendo un pequeño respiro tras completar un nivel.  
 
----
-
 ### 6. **`MainMenu.cs`**  
 Gestor del menú principal del juego:  
 - Permite al jugador iniciar el juego o salir de la aplicación.  
 - Cambia a la escena del primer nivel al presionar "Start".  
 - Una base simple, pero funcional, para futuros proyectos más complejos.  
-
----
 
 ## **Cómo usar el proyecto**  
 1. Crea un proyecto en Unity y asegúrate de usar una versión reciente.  
@@ -64,10 +55,8 @@ Gestor del menú principal del juego:
 3. Configura las escenas, objetos y referencias según las necesidades del juego.  
 4. Presiona *Play* y disfruta.  
 
----
-
 ## **Herramientas utilizadas**  
 - **Unity**: Motor de desarrollo de juegos.  
 - **C#**: Lenguaje de programación para lógica de juego.  
 
-¡Gracias por visitar este repositorio! 
+####AUTHOR: Victor Navareño
