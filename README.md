@@ -29,6 +29,8 @@ Controla el comportamiento de los enemigos:
 - Al ser alcanzados por las balas, se activa un efecto de explosión y se notifica al `GameManager` que han sido eliminados.  
 - Incluye sonidos y partículas para enriquecer la experiencia visual y auditiva.  
 
+![image](https://github.com/user-attachments/assets/98fc0246-80d0-49c4-91a5-4bc644f27560)
+
 
 ### 4. **`Bullet.cs`**  
 Este script define el comportamiento de las balas disparadas por el jugador:  
