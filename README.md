@@ -51,12 +51,6 @@ Gestor del menú principal del juego:
 - Cambia a la escena del primer nivel al presionar "Start".  
 - Una base simple, pero funcional, para futuros proyectos más complejos.  
 
-## **Cómo usar el proyecto**  
-1. Crea un proyecto en Unity y asegúrate de usar una versión reciente.  
-2. Añade los scripts del repositorio al proyecto.  
-3. Configura las escenas, objetos y referencias según las necesidades del juego.  
-4. Presiona *Play* y disfruta.  
-
 ## **Herramientas utilizadas**  
 - **Unity**: Motor de desarrollo de juegos.  
 - **C#**: Lenguaje de programación para lógica de juego.  
