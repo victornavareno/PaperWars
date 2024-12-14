@@ -27,10 +27,14 @@ Responsable del movimiento del jugador:
 Controla el comportamiento de los enemigos:  
 - Los enemigos persiguen al jugador usando cálculos de rotación suaves para mantener un movimiento realista.  
 - Al ser alcanzados por las balas, se activa un efecto de explosión y se notifica al `GameManager` que han sido eliminados.  
-- Incluye sonidos y partículas para enriquecer la experiencia visual y auditiva.  
+- Incluye sonidos y partículas para enriquecer la experiencia visual y auditiva.
 
+---
+
+#### Pequeña preview del juego (Los enemigos nos siguen siempre):
 ![image](https://github.com/user-attachments/assets/98fc0246-80d0-49c4-91a5-4bc644f27560)
 
+---
 
 ### 4. **`Bullet.cs`**  
 Este script define el comportamiento de las balas disparadas por el jugador:  
@@ -51,8 +55,4 @@ Gestor del menú principal del juego:
 - Cambia a la escena del primer nivel al presionar "Start".  
 - Una base simple, pero funcional, para futuros proyectos más complejos.  
 
-## **Herramientas utilizadas**  
-- **Unity**: Motor de desarrollo de juegos.  
-- **C#**: Lenguaje de programación para lógica de juego.  
-
-####AUTHOR: Victor Navareño
+### AUTOR: Victor Navareño para Imagen Digital, Ingeniería Informática en Ingeniería del Software
