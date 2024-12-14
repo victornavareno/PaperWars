@@ -55,4 +55,7 @@ Gestor del menú principal del juego:
 - Cambia a la escena del primer nivel al presionar "Start".  
 - Una base simple, pero funcional, para futuros proyectos más complejos.  
 
+![image](https://github.com/user-attachments/assets/f607de7a-f486-4e03-bd9f-e4130721a2ba)
+
+
 ### AUTOR: Victor Navareño para Imagen Digital, Ingeniería Informática en Ingeniería del Software
